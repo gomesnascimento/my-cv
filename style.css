@@ -1,0 +1,131 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* .container {
+} */
+
+.information-column {
+    background-color: #000;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}
+.information-column hr {
+    border: none;
+    border: 1px solid green;
+    margin-top: 18px;
+}
+
+.information-column img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-bottom: 18px;
+}
+
+.information-column h3 {
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.information-column ul {
+    list-style: none;
+}
+
+.information-column li {
+    text-align: left;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 16px;
+}
+.contact-description a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-description i {
+    color: green;
+    margin-right: 10px;
+
+}
+
+/* h2 {
+    margin-bottom: 10px ;
+} */
+
+.education-description {
+    margin-top: 32px;
+}
+.education-description p {
+    color: green;
+}
+
+.languages-description .porcent {
+    width: 205px;
+    height: 6px;
+    background-color: #008000;
+    margin-top: 5px;
+}
+.languages-description .porcent div {
+    height: 6px;
+    background-color: #32cd32;
+
+}
+.languages-description .porcent.english div {
+    height: 6px;
+    width: 10%;
+    background-color: #32cd32 ;
+}
+
+.experiences-column {
+    background-color: #fff;
+    padding: 40px;
+    color: #000;
+
+}
+.experiences-column section {
+    margin-bottom:30px;
+}
+.experiences-column h2 {
+    margin-bottom: 15px;
+}
+.experiences-column a {
+    text-decoration: underline;
+    color: #000;
+}
+.experiences-column .last-date {
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: flex;
+    }
+    .information-column h1 {
+        font-size: 20px;
+    }
+    .information-column h2 {
+        font-size: 15px;
+    }
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+    .separa {
+        display: flex;
+    }
+    .date {
+      width: 250px;
+    }
+}
