@@ -108,6 +108,10 @@
     text-align: right;
 }
 
+.project h3 {
+    margin-top: 15px;
+}
+
 @media (min-width: 992px) {
     .container {
         display: flex;
